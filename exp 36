@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int a=2;
+    int num;
+    printf("\n please enter the maximum value:");
+    scanf("%d",&num);
+    printf("even numbers in the list are:");
+    while(a<=num)
+    {
+    	printf("%d\t",a);
+    	a=a+2;
+	}
+}
