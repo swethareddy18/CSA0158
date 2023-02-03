@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+	int N=50;
+	int num=21;
+	while(num<=N)
+	{
+		printf("%d\n",num);
+		num+=2;
+	}
+	return 0;
+}
